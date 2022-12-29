@@ -1,0 +1,9 @@
+<h1>Products:</h1>
+
+<% @products.each do |item| %>
+  <%= link_to product_path(item.id), class: 'product' do %>
+      <h2> <%= item.title %> </h2>
+      <span> <%= item.price %>$ </span>
+  <% end %>
+  <hr>
+<% end %>
