@@ -4,8 +4,16 @@ ps4:
   title: PS4
   description: estado de novo
   price: 100
+  category: videogames
 
 bike:
   title: BIKE
   description: dois anos de uso
   price: 150
+  category: bicicletas
+
+xbox:
+  title: Xbox S
+  description: nunca foi ligado ainda
+  price: 4000
+  category: videogames
